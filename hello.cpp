@@ -3,7 +3,10 @@ using namespace std;
 
 int main () {
   
-  cout << "Hello Class!\n\n";
+  char name;
+  cout << "Your name, please: ";
+  cin >> name;
+  cout << "Hello " << name << ", my name is Mitchell";
 
   return 0;
 }
